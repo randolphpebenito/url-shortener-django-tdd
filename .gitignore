@@ -1,0 +1,7 @@
+*.sw[opqrst]
+*.vim
+*.pyc
+py/
+tmp/
+venv/
+miniature/db.sqlite3
