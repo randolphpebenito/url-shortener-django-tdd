@@ -1,4 +1,4 @@
-URL SHORTENER using TDD
+URL SHORTENER using DJANGO and TDD APPROACH
 
 Objectives:
 - To Shorten URLs
