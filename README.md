@@ -1,4 +1,4 @@
-URL SHORTENER using TDD
+URL SHORTENER using DJANGO and TDD APPROACH
 
 Objectives:
 - To Shorten URLs
@@ -12,4 +12,5 @@ Scope and Limitations:
 - Shortened URLs is only a mapping to the Original URL
 
 PROJECT NAME: miniature
+ 
 APP NAME: url_short
