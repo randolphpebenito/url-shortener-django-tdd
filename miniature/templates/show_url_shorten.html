@@ -1,2 +1,13 @@
-<p> Short Link: <a href="/{{ redirect_url }}">{{ short_url }}</a>
-<p> Original Link: {{ url }}
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+<div class='well' style='background-color:white;'><a data-toggle="tooltip" title="Press Ctrl-C to Copy">{{ short_url }}</a></div>
+<div class="row">
+<div class="col-md-8"><p class="text-left">Short Link: <a href="/{{ redirect_url }}">{{ short_url }}</a></p>
+<p class="text-left">Original Link: <a href="/{{ url }}">{{ url }}</a></p></div>
+</div>
+<a href="/" class="btn btn-info" role="button">CLEAR</a>
+</div>
+
+
+{% endblock %}

@@ -120,3 +120,6 @@ class URLShortenerFormTest(TestCase):
         f = URLShortenForm({"url": self.url})
         self.assertTrue(f.is_valid())
 
+    def test_shortener_form_not_blank_twice(self):
+        f = URLShortenForm({"url": self.url})
+        self.assertTrue(f.is_valid())

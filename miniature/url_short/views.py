@@ -14,7 +14,7 @@ def home(request):
         su  = shorten(url)
         return redirect('url_shorten', pk=su.id)
 
-    return render(request, 'index.html', context)
+    return render(request, 'base.html', context)
 
 def show_url_shorten(request,pk): 
     try:
