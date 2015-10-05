@@ -11,5 +11,6 @@ Scope and Limitations:
 - Scope of the URL shortener is for URLs that are too long to be shortened. It will not be effective for URLs that are short already.
 - Shortened URLs is only a mapping to the Original URL
 
-- PROJECT NAME: miniature
-- APP NAME: url_short
+PROJECT NAME: miniature
+ 
+APP NAME: url_short
