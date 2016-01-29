@@ -13,7 +13,7 @@ def _generate_hashkey():
     hashkey = str(uuid.uuid4())[:7].replace('-', '').lower()
         #ref_id = '9f16a22615'
     try:
-        url_exists = Link.objects.get(short_url=hashkey)
+        Link.objects.get(short_url=hashkey)
         _generate_hashkey()
     except:
         return hashkey

@@ -5,3 +5,4 @@ py/
 tmp/
 venv/
 miniature/db.sqlite3
+local_settings.py
